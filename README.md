@@ -1,59 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Sistem Informasi Pemesanan Studio Musik dan Podcast JamSpace
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Deskripsi
+Sistem Informasi Pemesanan Studio Musik dan Podcast JamSpace adalah platform berbasis web yang diciptakan untuk mempermudah proses pemesanan studio musik dan podcast dengan cara yang terorganisir, efisien, dan terintegrasi. Tujuan dari sistem ini adalah untuk menggantikan metode reservasi manual sehingga pengelolaan data pemesanan, layanan, dan pengguna dapat dilakukan dengan lebih tepat dan teratur.
+Sistem ini memiliki dua peran utama, yaitu admin dan pengguna (pelanggan). Pengguna dapat menjadwalkan pemesanan studio sesuai dengan waktu yang tersedia, sementara admin bertanggung jawab atas pengelolaan data layanan, jadwal, serta memonitor semua aktivitas pemesanan dalam sistem.
 
-## About Laravel
+Latar Belakang
+Pertumbuhan industri kreatif, terutama dalam bidang musik dan podcast, meningkatkan permintaan terhadap studio rekaman yang berkualitas. Namun, cara pemesanan studio yang masih dilakukan secara tradisional sering kali menimbulkan masalah seperti bentrokan jadwal, pencatatan data yang tidak teratur, dan kesulitan dalam pengelolaan laporan.
+Oleh karena itu, dibutuhkan sistem informasi pemesanan yang dapat membantu pengelolaan studio musik dan podcast dengan cara yang lebih efektif dan efisien. Sistem Informasi JamSpace dibuat sebagai solusi untuk mengatasi masalah tersebut.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Tujuan Sistem
+Tujuan pengembangan Sistem Informasi Pemesanan JamSpace antara lain:
+1. Memudahkan pengguna dalam melakukan pemesanan studio musik dan podcast.
+2. Membantu admin dalam mengelola data pemesanan dan layanan studio.
+3. Mengurangi kesalahan dalam pencatatan data pemesanan.
+4. Meningkatkan efisiensi dan efektivitas pengelolaan studio.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Ruang Lingkup Sistem
+Lingkup sistem ini mencakup:
+- Pengelolaan data pengguna
+- Pengelolaan informasi layanan studio musik dan podcast
+- Pengelolaan jadwal dan pemesanan studio
+- Pencatatan transaksi pemesanan
+- Penyampaian informasi dan laporan mengenai pemesanan
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+Fitur Utama
+Beberapa fitur utama yang disediakan dalam sistem ini adalah:
+- Masuk dan pengelolaan akun pengguna
+- Pemesanan (reservasi) untuk studio musik dan podcast
+- Pengelolaan informasi layanan studio
+- Pengelolaan jadwal pemesanan
+- Manajemen data pemesanan oleh admin
+- Laporan mengenai data pemesanan
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Metodologi Pengembangan
+Sistem ini dikembangkan melalui langkah-langkah berikut:
+1. Analisis kebutuhan sistem
+2. Perancangan sistem (UML dan ERD)
+3. Desain basis data
+4. Implementasi sistem
+5. Pengujian sistem
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Perancangan Sistem
+Desain sistem dilakukan dengan menggunakan berbagai diagram, di antaranya:
+- Use Case Diagram
+- Activity Diagram
+- Sequence Diagram
+- Entity Relationship Diagram (ERD)
 
-## Laravel Sponsors
+Diagram-diagram tersebut digunakan untuk merinci alur kerja sistem, hubungan antara entitas, serta interaksi antara pengguna dan sistem.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Manfaat Sistem
+Keuntungan dari Sistem Informasi Pemesanan JamSpace antara lain:
+- Proses pemesanan menjadi lebih cepat dan mudah
+- Data tersimpan secara sistematis dalam basis data
+- Mengurangi kesalahan akibat pencatatan secara manual
+- Membantu proses pengambilan keputusan melalui laporan data pemesanan
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Penutup
+Dengan adanya Sistem Informasi Pemesanan Studio Musik dan Podcast JamSpace, diharapkan manajemen studio dapat berjalan lebih baik dan profesional. Sistem ini juga dapat dijadikan referensi atau contoh penerapan sistem informasi berbasis web dalam layanan kreatif.
